@@ -4,7 +4,7 @@
   "description": "Fastify secrets plugin for AWS Secrets Manager",
   "main": "lib/fastify-secrets-aws.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "bash .ci/run.sh",
     "lint:fix": "npm run lint -- --fix",
     "lint:staged": "lint-staged",
     "test": "node --test",
